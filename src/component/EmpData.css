@@ -1,0 +1,40 @@
+.empData-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.other-info {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+
+.emp-lab {
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.pic {
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gen {
+    display: flex;
+}
+
+button {
+    margin: 5px;
+    padding: 0px;
+}

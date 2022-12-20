@@ -1,0 +1,64 @@
+.empData-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.other-info{
+    margin: 10px auto;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* background-color: orange; */
+    background: linear-gradient(to bottom right, #f26907, #f4b37b);
+    padding: 25px 0 25px 0px;
+    /* gap: 20px; */
+    font-weight: 500;
+    color: #e6e9f0;
+    text-shadow: 2px 2px 5px #00000048;
+    font-size: 17px;
+    border-radius: 20px;
+}
+input{
+    border: none;
+    font-style: bold;
+    border-radius: 3px;
+}
+
+input::placeholder {
+    font-weight: bold;
+    opacity: .5;
+    color: black;
+}
+
+.emp-lab {
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.pic {
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gen {
+    display: flex;
+}
+
+button {
+    margin: 5px;
+    padding: 0px;
+}
+

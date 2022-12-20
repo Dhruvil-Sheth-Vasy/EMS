@@ -1,0 +1,18 @@
+.home-emp {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.EmpLoading {
+    text-align: center;
+    color: white;
+  }
+  
+  .EmpError {
+    text-align: center;
+    color: red;
+  }

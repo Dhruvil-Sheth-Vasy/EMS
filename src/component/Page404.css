@@ -1,0 +1,24 @@
+.error-page {
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://previews.123rf.com/images/pa3x/pa3x1605/pa3x160500006/56425146-404-error-web-page-background-vector-design-page-not-found-template-with-typography-.jpg');
+}
+
+.error-header {
+    color: orangered !important;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error-ref{
+    color: orangered !important;
+    text-decoration: underline;
+}
+
+.error-ref:hover{
+    color: orangered;
+    transform: scale(1.03);
+    text-shadow: 2px 2px slategray
+}
